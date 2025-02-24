@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify Listening Stats</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Login Section -->
+  <div id="login-section">
+    <h1>Welcome to Spotify Listening Stats</h1>
+    <button id="login-button">Login with Spotify</button>
+  </div>
+
+  <!-- Dashboard Section (hidden until login) -->
+  <div id="dashboard" style="display:none;">
+    <h1>Your Listening Stats</h1>
+    <div id="profile"></div>
+    <div id="top-artists">
+      <h2>Top Artists</h2>
+      <ul id="artists-list"></ul>
+    </div>
+    <div id="top-tracks">
+      <h2>Top Tracks</h2>
+      <ul id="tracks-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
